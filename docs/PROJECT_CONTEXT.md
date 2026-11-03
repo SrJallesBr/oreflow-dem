@@ -45,8 +45,10 @@ Gás foi mencionado e corrigido durante a conversa; não registrar como requisit
 - Definir versões, campos trocados, sincronização, estratégias de acoplamento e plataformas suportadas numa fase própria.
 
 ### Linguagem e arquitetura
-- Decisão de direção inicial: avaliar/desenvolver o núcleo em C++.
-- Isso não fecha toda a arquitetura; interface, bibliotecas, formatos internos, solver-base e módulos auxiliares ainda precisam de análise fundamentada.
+- Decisão atual do usuário: desenvolver o projeto inteiramente em Rust, por considerar a linguagem mais robusta. Esta preferência substitui a direção anterior de avaliar C++ como linguagem principal.
+- Tratar “mais robusto” como motivação/preferência do usuário, não como garantia de que Rust assegure robustez do produto. Rust oferece garantias fortes de segurança de memória em código seguro, mas precisão numérica, estabilidade física, desempenho, segurança concorrente e confiabilidade do software dependem de arquitetura, bibliotecas, testes e validação.
+- Avaliar viabilidade de Rust para solver DEM, paralelismo CPU, GPU, visualização/interface, importação de geometrias, builds Windows/Linux e integração futura com OpenFOAM. Interoperabilidade com bibliotecas C/C++ pode ser considerada sem mudar a decisão de que o código do projeto deve ser inteiramente Rust; qualquer exceção ou componente externo precisa ser explicitamente proposta e aprovada.
+- Isso não fecha toda a arquitetura; bibliotecas Rust, formatos internos, solver-base e módulos auxiliares ainda precisam de análise fundamentada.
 - O assistente deve apresentar recomendações técnicas, alternativas e consequências; Henrique decide questões de produto e escolhas que exijam sua preferência. Henrique tem experiência em DEM, não em programação.
 
 ### Licença e validação

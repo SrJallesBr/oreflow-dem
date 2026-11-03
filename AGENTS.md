@@ -5,7 +5,7 @@
 - O projeto está em concepção. Não alegue que o solver, GPU, CFD, pós-processamento ou funcionalidades listadas já existem.
 - Henrique tem experiência em DEM, mas não em programação. Conduza decisões técnicas com análise e recomendação fundamentadas; explique escolhas em português claro e deixe explícitas as decisões de produto que dependem dele.
 - O objetivo é um produto autoral para engenharia e pesquisa em mineração, não uma cópia de Rocky, EDEM ou LIGGGHTS.
-- Trate C++ como direção inicial escolhida para avaliação, não como arquitetura integralmente fechada.
+- Trate Rust como linguagem escolhida para o projeto inteiro, conforme decisão atual do usuário; a motivação é robustez. Não substitua por C++ sem autorização explícita. Avalie a viabilidade do ecossistema e explique que a linguagem não garante sozinha a robustez do produto.
 
 ## Antes de implementar
 1. Transforme a visão em requisitos testáveis e fases; diferencie confirmado, hipótese, recomendação e questão em aberto.

@@ -12,7 +12,7 @@ Registro inicial em 2026-11-02, consolidado para continuidade no Codex.
 | D-006 | Investigar partículas superquadráticas, múltiplas formas, mesh/STL e superpartículas/clumps | Intenção registrada; definição técnica pendente |
 | D-007 | GPU e multicore CPU são metas iniciais do planejamento | Registrado; estratégia/escopo/benchmarks pendentes |
 | D-008 | CFD/OpenFOAM depois do DEM inicial, com modos uni e bidirecional desejados | Registrado; projeto técnico posterior |
-| D-009 | C++ é direção inicial para avaliação do núcleo | Escolha registrada, arquitetura não fechada |
+| D-009 | Desenvolver OreFlow DEM inteiramente em Rust, preferência do usuário motivada por robustez | Decisão atual; avaliar viabilidade técnica e bibliotecas. Robustez do produto não é garantida apenas pela linguagem. Substitui a direção anterior de C++. |
 | D-010 | Intenção de licença aberta com reciprocidade semelhante à do LIGGGHTS | Licença concreta pendente de pesquisa de compatibilidade e aconselhamento jurídico |
 | D-011 | Validar por comparação com códigos de referência e por benchmarks/dados experimentais quando disponíveis | Estratégia desejada; casos e métricas pendentes |
 | D-012 | Continuidade de trabalho será pelo Codex usando este repositório como contexto | Registrado |
